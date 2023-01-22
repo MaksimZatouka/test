@@ -4,7 +4,7 @@ from django.http import HttpResponse
 # Create your views here.
 
 
-def fabia():
+def fabia(request):
     return HttpResponse('this is skoda fabia'),
 
 
